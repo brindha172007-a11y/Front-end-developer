@@ -14,3 +14,5 @@ https://brindha172007-a11y.github.io/Front-end-developer//practical.html
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f004de02-4938-4a5c-a097-8b94a84f201f" />
 https://brindha172007-a11y.github.io/Front-end-developer//Client server.html
 <img width="1920" height="1080" alt="Screenshot 2026-03-26 112314" src="https://github.com/user-attachments/assets/ee908c9d-4ffd-4e32-93fe-1abbe33361df" />
+https://brindha172007-a11y.github.io/Front-end-developer//calculator.html
+<img width="708" height="609" alt="Screenshot 2026-03-26 112816" src="https://github.com/user-attachments/assets/d42bea0c-af17-4be9-864c-a13f6be4f2b6" />
