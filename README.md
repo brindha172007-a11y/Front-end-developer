@@ -26,3 +26,5 @@ https://brindha172007-a11y.github.io/Front-end-developer//swiggy.html
 <img width="1880" height="851" alt="image" src="https://github.com/user-attachments/assets/4bea4536-a564-4a23-8f99-2de8bafb62b7" />
 https://brindha172007-a11y.github.io/Front-end-developer//eventhandling.html
 <img width="1893" height="907" alt="image" src="https://github.com/user-attachments/assets/1f24c05e-062b-43b2-9b25-74d4f861fa44" />
+https://brindha172007-a11y.github.io/Front-end-developer//imageslider.html
+<img width="1906" height="887" alt="image" src="https://github.com/user-attachments/assets/7994cd60-3650-47f9-99c2-2005b0ba523e" />
