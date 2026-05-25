@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Handling</title>
+
+    <style>
+
+        body{
+            font-family:Arial;
+            background-color:#f2f2f2;
+            text-align:center;
+            margin:0;
+        }
+
+        .header{
+            background-color:orange;
+            color:white;
+            padding:20px;
+        }
+
+        .container{
+            margin-top:40px;
+        }
+
+        .card{
+            background-color:white;
+            width:300px;
+            margin:auto;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0px 4px 8px gray;
+        }
+
+        .card img{
+            width:100%;
+            border-radius:10px;
+        }
+
+        button{
+            padding:10px 20px;
+            margin:10px;
+            border:none;
+            border-radius:5px;
+            color:white;
+            cursor:pointer;
+        }
+
+        .order{
+            background-color:green;
+        }
+
+        .cancel{
+            background-color:red;
+        }
+
+        #message{
+            margin-top:20px;
+            font-size:22px;
+            color:blue;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Foodie Express</h1>
+        <p>JavaScript Event Handling</p>
+    </div>
+
+    <div class="container">
+
+        <div class="card">
+
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=800&auto=format&fit=crop">
+
+            <h2>Pizza</h2>
+
+            <p>Hot Pizza with Extra Cheese</p>
+
+            <button class="order"
+            onclick="orderFood()">
+                Order
+            </button>
+
+            <button class="cancel"
+            onclick="cancelFood()">
+                Cancel
+            </button>
+
+        </div>
+
+        <h2 id="message">
+            Welcome to Foodie Express
+        </h2>
+
+    </div>
+
+    <script>
+
+        function orderFood(){
+
+            document.getElementById("message").innerHTML =
+            "✅ Pizza Order Placed Successfully";
+
+        }
+
+        function cancelFood(){
+
+            document.getElementById("message").innerHTML =
+            "❌ Pizza Order Cancelled";
+
+        }
+
+    </script>
+
+</body>
+</html>
