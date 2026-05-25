@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Delivery Website</title>
+
+    <style>
+
+        body{
+            margin:0;
+            font-family:Arial;
+            background-color:#f2f2f2;
+        }
+
+        /* Header */
+
+        .header{
+            background-color:orange;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+
+        .header h1{
+            margin:0;
+            font-size:40px;
+        }
+
+        .header p{
+            font-size:20px;
+        }
+
+        /* Menu */
+
+        .menu{
+            text-align:center;
+            margin-top:30px;
+        }
+
+        .menu h2{
+            font-size:35px;
+            color:#333;
+        }
+
+        /* Food Cards */
+
+        .container{
+            display:flex;
+            justify-content:center;
+            flex-wrap:wrap;
+            gap:20px;
+            padding:20px;
+        }
+
+        .card{
+            background-color:white;
+            width:250px;
+            border-radius:10px;
+            padding:15px;
+            text-align:center;
+            box-shadow:0px 4px 8px gray;
+        }
+
+        .card img{
+            width:100%;
+            height:180px;
+            border-radius:10px;
+            object-fit:cover;
+        }
+
+        .card h3{
+            font-size:25px;
+        }
+
+        .card p{
+            color:gray;
+        }
+
+        .card button{
+            background-color:orange;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        .card button:hover{
+            background-color:darkorange;
+        }
+
+        /* Footer */
+
+        .footer{
+            background-color:black;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:30px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <div class="header">
+        <h1>Foodie Express</h1>
+        <p>Fast Delivery | Fresh Food | Best Taste</p>
+    </div>
+
+    <!-- Menu -->
+
+    <div class="menu">
+        <h2>Popular Foods</h2>
+    </div>
+
+    <!-- Food Cards -->
+
+    <div class="container">
+
+        <!-- Burger -->
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=800&auto=format&fit=crop">
+
+            <h3>Burger</h3>
+
+            <p>Cheesy Burger with Crispy Fries</p>
+
+            <button>Order Now</button>
+        </div>
+
+        <!-- Pizza -->
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=800&auto=format&fit=crop">
+
+            <h3>Pizza</h3>
+
+            <p>Hot Pizza with Extra Cheese</p>
+
+            <button>Order Now</button>
+        </div>
+
+        <!-- Biryani -->
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?q=80&w=800&auto=format&fit=crop">
+
+            <h3>Biryani</h3>
+
+            <p>Spicy Chicken Biryani</p>
+
+            <button>Order Now</button>
+        </div>
+
+        <!-- Sandwich -->
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80&w=800&auto=format&fit=crop">
+
+            <h3>Sandwich</h3>
+
+            <p>Fresh Veg Sandwich</p>
+
+            <button>Order Now</button>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer">
+        <p>© 2026 Foodie Express | All Rights Reserved</p>
+    </div>
+
+</body>
+</html>
