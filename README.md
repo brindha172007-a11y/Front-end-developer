@@ -28,3 +28,5 @@ https://brindha172007-a11y.github.io/Front-end-developer//eventhandling.html
 <img width="1893" height="907" alt="image" src="https://github.com/user-attachments/assets/1f24c05e-062b-43b2-9b25-74d4f861fa44" />
 https://brindha172007-a11y.github.io/Front-end-developer//imageslider.html
 <img width="1906" height="887" alt="image" src="https://github.com/user-attachments/assets/7994cd60-3650-47f9-99c2-2005b0ba523e" />
+https://brindha172007-a11y.github.io/Front-end-developer//responsivewebpage.html
+<img width="1890" height="906" alt="image" src="https://github.com/user-attachments/assets/eb2fcbe9-0c46-47a9-ad47-eb66dc7e5364" />
