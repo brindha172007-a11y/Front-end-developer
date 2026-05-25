@@ -24,3 +24,5 @@ https://brindha172007-a11y.github.io/Front-end-developer//Validation.html
 <img width="555" height="699" alt="Screenshot 2026-04-08 223026" src="https://github.com/user-attachments/assets/092a5a85-ade9-4c12-a22a-99eea6df3baf" />
 https://brindha172007-a11y.github.io/Front-end-developer//swiggy.html
 <img width="1880" height="851" alt="image" src="https://github.com/user-attachments/assets/4bea4536-a564-4a23-8f99-2de8bafb62b7" />
+https://brindha172007-a11y.github.io/Front-end-developer//eventhandling.html
+<img width="1893" height="907" alt="image" src="https://github.com/user-attachments/assets/1f24c05e-062b-43b2-9b25-74d4f861fa44" />
