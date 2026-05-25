@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Webpage</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial;
+        }
+
+        body{
+            background-color:#f2f2f2;
+        }
+
+        /* Header */
+
+        .header{
+            background-color:teal;
+            color:white;
+            text-align:center;
+            padding:25px;
+        }
+
+        .header h1{
+            font-size:40px;
+        }
+
+        .header p{
+            margin-top:10px;
+            font-size:20px;
+        }
+
+        /* Container */
+
+        .container{
+            display:flex;
+            justify-content:center;
+            gap:20px;
+            flex-wrap:wrap;
+            padding:40px;
+        }
+
+        /* Cards */
+
+        .card{
+            background-color:white;
+            width:300px;
+            border-radius:10px;
+            overflow:hidden;
+            box-shadow:0px 4px 10px gray;
+            text-align:center;
+        }
+
+        .card img{
+            width:100%;
+            height:200px;
+            object-fit:cover;
+        }
+
+        .card h2{
+            margin:15px 0;
+        }
+
+        .card p{
+            padding:0 15px;
+            color:gray;
+        }
+
+        .card button{
+            margin:20px;
+            padding:10px 20px;
+            border:none;
+            background-color:teal;
+            color:white;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        .card button:hover{
+            background-color:darkcyan;
+        }
+
+        /* Footer */
+
+        .footer{
+            background-color:black;
+            color:white;
+            text-align:center;
+            padding:15px;
+        }
+
+        /* Responsive Design */
+
+        @media(max-width:768px){
+
+            .header h1{
+                font-size:30px;
+            }
+
+            .container{
+                flex-direction:column;
+                align-items:center;
+            }
+
+            .card{
+                width:90%;
+            }
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <div class="header">
+
+        <h1>Responsive Webpage</h1>
+
+        <p>HTML CSS Responsive Design Example</p>
+
+    </div>
+
+    <!-- Cards -->
+
+    <div class="container">
+
+        <!-- Card 1 -->
+
+        <div class="card">
+
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200&auto=format&fit=crop">
+
+            <h2>Nature</h2>
+
+            <p>Beautiful mountain and forest view.</p>
+
+            <button>View More</button>
+
+        </div>
+
+        <!-- Card 2 -->
+
+        <div class="card">
+
+            <img src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?q=80&w=1200&auto=format&fit=crop">
+
+            <h2>River</h2>
+
+            <p>Peaceful river surrounded by trees.</p>
+
+            <button>View More</button>
+
+        </div>
+
+        <!-- Card 3 -->
+
+        <div class="card">
+
+            <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?q=80&w=1200&auto=format&fit=crop">
+
+            <h2>Sunset</h2>
+
+            <p>Colorful sunset view in the evening.</p>
+
+            <button>View More</button>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer">
+
+        <p>© 2026 Responsive Website</p>
+
+    </div>
+
+</body>
+</html>
