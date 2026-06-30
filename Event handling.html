@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Handling Example</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        h1{
+            color: darkblue;
+        }
+
+        button{
+            padding: 12px 25px;
+            font-size: 18px;
+            background-color: royalblue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: darkblue;
+        }
+
+        #message{
+            margin-top: 30px;
+            font-size: 22px;
+            color: green;
+            font-weight: bold;
+        }
+
+        input{
+            padding:10px;
+            width:250px;
+            font-size:16px;
+            margin-top:20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Event Handling Demo</h1>
+
+    <input type="text" id="name" placeholder="Enter your name">
+
+    <br><br>
+
+    <button onclick="showMessage()">Click Me</button>
+
+    <p id="message"></p>
+
+<script>
+
+function showMessage()
+{
+    var username = document.getElementById("name").value;
+
+    if(username=="")
+    {
+        document.getElementById("message").innerHTML="Please enter your name.";
+        document.getElementById("message").style.color="red";
+    }
+    else
+    {
+        document.getElementById("message").innerHTML="Welcome " + username + "!";
+        document.getElementById("message").style.color="green";
+    }
+}
+
+// Mouse Over Event
+document.querySelector("button").addEventListener("mouseover", function(){
+    this.innerHTML="Ready!";
+});
+
+// Mouse Out Event
+document.querySelector("button").addEventListener("mouseout", function(){
+    this.innerHTML="Click Me";
+});
+
+// Keyup Event
+document.getElementById("name").addEventListener("keyup", function(){
+    this.style.backgroundColor="lightyellow";
+});
+
+</script>
+
+</body>
+</html>
