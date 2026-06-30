@@ -1,5 +1,5 @@
 https://brindha172007-a11y.github.io/Front-end-developer/Profile.html
-<img width="1212" height="393" alt="Screenshot 2026-06-30 185628" src="https://github.com/user-attachments/assets/3fee3d7c-9b6f-4a8e-a838-98c840e40043" />
+<img width="626" height="785" alt="Screenshot 2026-02-17 085209" src="https://github.com/user-attachments/assets/1f4dfefd-95d6-4328-8ec3-3292d25936b4" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3c04719e-c27d-43c6-853e-5cd7c23a6718" />
 <img width="626" height="785" alt="Screenshot 2026-02-17 085209" src="https://github.com/user-attachments/assets/1f4dfefd-95d6-4328-8ec3-3292d25936b4" />
 https://brindha172007-a11y.github.io/Front-end-developer/gallery.html
