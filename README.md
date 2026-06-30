@@ -39,3 +39,5 @@ https://brindha172007-a11y.github.io/Front-end-developer//React single page layo
 <img width="1072" height="575" alt="image" src="https://github.com/user-attachments/assets/70e83fe1-c714-46db-87bc-591757aaf9d8" />
 https://brindha172007-a11y.github.io/Front-end-developer//React state management (counter).html
 <img width="1195" height="816" alt="image" src="https://github.com/user-attachments/assets/d2669946-6c26-4233-a007-8fd056fbc103" />
+https://brindha172007-a11y.github.io/Front-end-developer//Coffee shop website.html
+<img width="1911" height="897" alt="image" src="https://github.com/user-attachments/assets/8b45b339-e03f-4485-b89b-f238503d1a23" />
