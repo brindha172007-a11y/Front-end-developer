@@ -33,3 +33,5 @@ https://brindha172007-a11y.github.io/Front-end-developer//responsivewebpage.html
 <img width="1890" height="906" alt="image" src="https://github.com/user-attachments/assets/eb2fcbe9-0c46-47a9-ad47-eb66dc7e5364" />
 https://brindha172007-a11y.github.io/Front-end-developer//Bootstrap components.html
 <img width="1857" height="937" alt="image" src="https://github.com/user-attachments/assets/e01cdbcd-dd06-4251-8126-4ed7ba4ad962" />
+https://brindha172007-a11y.github.io/Front-end-developer//Font awesome.html
+<img width="831" height="462" alt="image" src="https://github.com/user-attachments/assets/9ea0f573-86ca-422e-a32b-44724e688391" />
