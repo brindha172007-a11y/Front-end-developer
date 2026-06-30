@@ -37,3 +37,5 @@ https://brindha172007-a11y.github.io/Front-end-developer//Font awesome.html
 <img width="831" height="462" alt="image" src="https://github.com/user-attachments/assets/9ea0f573-86ca-422e-a32b-44724e688391" />
 https://brindha172007-a11y.github.io/Front-end-developer//React single page layout.html
 <img width="1072" height="575" alt="image" src="https://github.com/user-attachments/assets/70e83fe1-c714-46db-87bc-591757aaf9d8" />
+https://brindha172007-a11y.github.io/Front-end-developer//React state management (counter).html
+<img width="1195" height="816" alt="image" src="https://github.com/user-attachments/assets/d2669946-6c26-4233-a007-8fd056fbc103" />
