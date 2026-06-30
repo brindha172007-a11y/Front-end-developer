@@ -1,0 +1,32 @@
+import React from "react";
+
+function Header() {
+  return <h1>Student Portal</h1>;
+}
+
+function Content() {
+  return (
+    <div>
+      <h2>Welcome Student!</h2>
+      <p>This is a React Single Page Application.</p>
+    </div>
+  );
+}
+
+function Footer() {
+  return <h3>© 2026 Student Portal</h3>;
+}
+
+function App() {
+  return (
+    <div style={{ textAlign: "center" }}>
+      <Header />
+      <hr />
+      <Content />
+      <hr />
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
